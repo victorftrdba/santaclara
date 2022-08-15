@@ -28,7 +28,7 @@ Route::get("/sair", [LoginController::class, "logout"])->name("login.logout");
 
 
 // Rotas restritas
-Route::group(["middleware" => "web"], function () {
+Route::group(["middleware" => "checkAccess"], function () {
     Route::get('/', [HomeController::class, "index"])->name("home");
 
     // Serviços
