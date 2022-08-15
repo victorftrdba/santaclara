@@ -22,13 +22,7 @@
         <section class="section dashboard">
             <div class="container-lg py-5">
                 <div class="pagetitle">
-                    <h1>Exame Toxicológico</h1>
-                    <nav>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a>Serviço</a></li>
-                            <li class="breadcrumb-item active">Exame Toxicológico</li>
-                        </ol>
-                    </nav>
+                    <h1>Incluir Diverso</h1>
                 </div>
                 <form action="{{ route('several.store') }}" method="POST">
                     @csrf
