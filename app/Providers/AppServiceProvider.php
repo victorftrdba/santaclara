@@ -30,6 +30,13 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
 
+        view()->composer("master.master", function ($view) {
+            $user = User::find(Auth::id());
+            $unity = $user->unities();
+
+            $view->with("user", $user);
+        });
+
         Blade::component(Alert::class, "alert");
     }
 }

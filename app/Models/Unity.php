@@ -10,4 +10,9 @@ class Unity extends Model
 {
     use HasFactory;
     use SoftDeletes;
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }
