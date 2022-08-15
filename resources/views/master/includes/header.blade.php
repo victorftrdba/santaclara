@@ -122,7 +122,7 @@
                         </li>
                         <li>
                             <a href="{{ route('several.create') }}">
-                                <i class="bi bi-circle-fill"></i><span>Incluir Diversos</span>
+                                <i class="bi bi-circle-fill"></i><span>Incluir Diverso</span>
                             </a>
                         </li>
                     </ul>
