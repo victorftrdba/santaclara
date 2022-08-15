@@ -20,7 +20,7 @@
 
         <section class="section dashboard">
             <div class="container-lg py-5">
-                <form action="{{ route('expenses.store') }}" class="row g-3" method="POST">
+                <form action="{{ route('expense.store') }}" class="row g-3" method="POST">
                     @csrf
                     @method('POST')
                     <div class="col-6">
