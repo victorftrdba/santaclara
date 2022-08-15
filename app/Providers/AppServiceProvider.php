@@ -32,8 +32,6 @@ class AppServiceProvider extends ServiceProvider
 
         view()->composer("master.master", function ($view) {
             $user = User::find(Auth::id());
-            $unity = $user->unities();
-
             $view->with("user", $user);
         });
 
