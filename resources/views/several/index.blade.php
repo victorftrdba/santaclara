@@ -30,6 +30,7 @@
                             <th scope="col">Tipo</th>
                             <th scope="col">Valor</th>
                             <th scope="col">Data do Pagamento</th>
+                            <th scope="col">Hora</th>
                             <th scope="col">Tipo de Pagamento</th>
                             <th scope="col">Quem Recebeu</th>
                         </tr>
@@ -42,6 +43,7 @@
                                 <td>{{ $several->type }}</td>
                                 <td>R${{ $several->value }}</td>
                                 <td>{{ \Carbon\Carbon::parse($several->payment_date)->format('d/m/Y') }}</td>
+                                <td>{{ $several->hour }}</td>
                                 <td>{{ $several->payment_method }}</td>
                                 <td>{{ $several->who_receives }}</td>
                             </tr>

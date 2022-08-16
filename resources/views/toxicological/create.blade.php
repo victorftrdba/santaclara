@@ -72,7 +72,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <label for="hourEx" class="form-label">Hora do Exame</label>
-                                    <input type="datetime" name="time_exam" class="form-control" id="hourEx">
+                                    <input type="time" name="time_exam" class="form-control" id="hourEx">
                                 </div>
 
                                 <div class="col-md-3">

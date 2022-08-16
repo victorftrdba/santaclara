@@ -45,7 +45,7 @@
 
                             <div class="col-md-3">
                                 <label for="hourDiver" class="form-label">Hora</label>
-                                <input type="number" name="hour" class="form-control" id="hourDiver">
+                                <input type="time" name="hour" class="form-control" id="hourDiver">
                             </div>
 
                             <div class="col-md-3">

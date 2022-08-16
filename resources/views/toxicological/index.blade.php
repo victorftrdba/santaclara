@@ -27,6 +27,7 @@
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Data do Exame</th>
+                            <th scope="col">Hora do Exame</th>
                             <th scope="col">Nome do Cliente</th>
                             <th scope="col">Gênero</th>
                             <th scope="col">Contato</th>
@@ -40,6 +41,7 @@
                             <tr>
                                 <th scope="row"><a href="#">#{{ $toxicological->id }}</a></th>
                                 <td>{{ \Carbon\Carbon::parse($toxicological->date_exam)->format('d/m/Y') }}</td>
+                                <td>{{ $toxicological->time_exam }}</td>
                                 <td>{{ $toxicological->client_name }}</td>
                                 <td>{{ $toxicological->gender }}</td>
                                 <td>{{ $toxicological->cell }}</td>

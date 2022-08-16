@@ -73,6 +73,7 @@ class ToxicologicalRequest extends FormRequest
             "laboratory.required" => 'O laboratório é obrigatório.',
             "uses_psychoactive_substances.required" => 'A pergunta Faz uso de alguma substância psicoativa? é obrigatória.',
             "uses_psychoactive_substances.in" => 'A resposta para a pergunta Faz uso de alguma substância psicoativa? deve ser Sim ou Não.',
+            "examVoucher.required" => 'A pergunta O condutor possui vale-exame? é obrigatória.',
             "examVoucher.in" => 'A resposta para a pergunta O condutor possui vale-exame? deve ser Sim ou Não.',
         ];
     }
